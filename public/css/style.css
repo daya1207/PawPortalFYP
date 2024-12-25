@@ -1,0 +1,1595 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #efefef;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+nav li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 60px;
+    background: #ebffe6; /* Light green background */
+    text-align: center;
+}
+.hero-section h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.hero-section p {
+    max-width: 700px;
+    margin: 0 auto 20px;
+    line-height: 1.5;
+}
+.hero-section button {
+    padding: 10px 20px;
+    background-color: #aade55;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Intro Section */
+.intro-section {
+    padding: 40px;
+    background-color: #fff;
+}
+.intro-section h2 {
+    margin-bottom: 20px;
+}
+.intro-section .intro-content {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+.intro-section button {
+    padding: 8px 16px;
+    background-color: #aade55;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Services Section */
+.services-section {
+    padding: 40px;
+    background: #ebffe6;
+}
+.services-section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.service-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.service-card h3 {
+    margin-bottom: 10px;
+}
+.service-card p {
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+.services-section {
+    padding: 40px;
+    background: #fff; /* or alternate color */
+    text-align: center;
+}
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.service-card {
+    background: #fff;
+    width: 220px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.service-card h3 {
+    margin-bottom: 10px;
+}
+.service-card p {
+    color: #555;
+}
+.team-section {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.team-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.team-card {
+    background-color: #fff;
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.team-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.team-card h3 {
+    margin: 10px 0 5px;
+}
+.team-card p {
+    margin: 0;
+    color: #555;
+}
+.review-section {
+    padding: 40px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+.review-box {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #222;
+    padding: 20px;
+    border-radius: 8px;
+}
+.review-box blockquote {
+    font-style: italic;
+    margin: 0 0 10px;
+}
+.review-author {
+    font-weight: bold;
+    color: #aade55;
+}
+.contact-section {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+.contact-section form {
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+}
+.contact-section label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+.contact-section button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #aade55;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+    .team-container {
+        flex-direction: column;
+    }
+}
+/* Sign Up / Log In shared styles */
+.signup-page, .login-page {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.signup-page h1,
+.login-page h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.signup-page p,
+.login-page p {
+    text-align: center;
+}
+
+.social-signup, .social-login {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.fb-signup, .google-signup,
+.fb-login, .google-login {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.fb-signup, .fb-login {
+    background: #3b5998;
+    color: #fff;
+}
+
+.google-signup, .google-login {
+    background: #aade55;
+    color: #fff;
+}
+
+.signup-form, .login-form {
+    margin-top: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.terms {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.signup-btn, .login-btn {
+    width: 100%;
+    padding: 12px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-redirect, .signup-redirect {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.forgot-password {
+    margin-top: 5px;
+    text-align: right;
+}
+/* ---------- RESCUE PAGE ---------- */
+.rescue-page {
+    padding: 40px;
+    background-color: #fff;
+}
+
+.rescue-page h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.rescue-tips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.tip-box {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 200px;
+    max-width: 250px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.rescue-form-section {
+    background: #ccffa8; /* Light green background from your prototype */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.rescue-form-section form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.rescue-form-section label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.rescue-helpline {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* ---------- HOSTING PAGE ---------- */
+.hosting-page {
+    padding: 40px;
+}
+
+.hosting-page h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.hosting-page button {
+    padding: 10px 20px;
+    background: #aade55;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hosting-page form {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.hosting-page label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.foster-cards {
+    margin-top: 40px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    width: 200px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.badge.female {
+    background: #aade55;
+    color: #fff;
+    padding: 2px 6px;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+.forgot-password-page {
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.forgot-password-page form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.reset-password-page {
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.reset-password-page form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+/* ----- General Resets ----- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /* ----- Hero Section ----- */
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 80px;
+    background-color: #EBFFE6; /* Light green from the prototype */
+  }
+  .hero-content {
+    max-width: 50%;
+  }
+  .hero-content h1 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+  .hero-content p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+    max-width: 500px;
+  }
+  .adopt-btn {
+    padding: 12px 24px;
+    background-color: #96cc39; /* Medium green */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .hero-image img {
+    max-width: 400px;
+    height: auto;
+  }
+
+  /* ----- Intro Section ----- */
+  .intro-section {
+    text-align: center;
+    padding: 40px;
+  }
+  .intro-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  .intro-bubble {
+    background-color: #CAFEB1; /* Approximated bright green bubble */
+    padding: 20px 40px;
+    display: inline-block;
+    border-radius: 10px;
+    max-width: 700px;
+  }
+  .intro-bubble p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  .read-more-btn {
+    padding: 10px 20px;
+    background-color: #96cc39;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* ----- Services Section ----- */
+  .services-section {
+    padding: 40px 80px;
+    text-align: center;
+  }
+  .services-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .service-card {
+    position: relative;
+    width: 240px;
+    height: 140px;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    overflow: hidden;
+  }
+  .service-card h3 {
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+  }
+  .service-card p {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+  }
+  .service-card .arrow {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.2rem;
+  }
+  .service-card img {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    max-height: 80px;
+  }
+  /* Service Card Colors (from your prototype) */
+  .service1 {
+    background-color: #000; /* e.g. black, or a dark color from your design */
+  }
+  .service2 {
+    background-color: #aaa; /* replace with your desired color for "Donation" */
+    /* or if your prototype had a specific color, use that */
+  }
+  .service3 {
+    background-color: #96cc39; /* bright green for "Emergency Reporting" */
+    color: #000;
+  }
+  .service4 {
+    background-color: #333; /* for "Temporary Hosting"? Adjust as needed */
+  }
+
+  /* ----- Team Section ----- */
+  .team-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #f8f8f8;
+  }
+  .team-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  .team-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .team-card {
+    background-color: #fff;
+    width: 220px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  .profile-pic img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  .team-card h3 {
+    margin-bottom: 5px;
+  }
+  .team-card p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  .team-card p.bio {
+    color: #666;
+  }
+
+  /* ----- Review Section ----- */
+  .review-section {
+    padding: 40px;
+    text-align: center;
+  }
+  .review-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  .review-box {
+    background-color: #000;
+    color: #fff;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: left;
+  }
+  .review-box blockquote {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  .review-author {
+    font-weight: bold;
+    text-align: right;
+  }
+
+  /* ----- Contact Section ----- */
+  .contact-section {
+    padding: 40px 80px;
+  }
+  .contact-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .contact-form-container {
+    background-color: #b2ff73; /* Light green gradient in your design or single color */
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    position: relative;
+  }
+  .contact-options {
+    margin-bottom: 20px;
+  }
+  .contact-options label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+  }
+  .contact-form label {
+    font-weight: bold;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  .send-msg-btn {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .contact-cat-illustration {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    /* or adapt if you want the cat to appear next to the form, not overlapped */
+  }
+  .contact-cat-illustration img {
+    max-width: 120px;
+    height: auto;
+  }
+
+  /* ----- Footer ----- */
+  .site-footer {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 80px;
+  }
+  .footer-left,
+  .footer-mid,
+  .footer-right {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 2%;
+  }
+  .footer-left h3 {
+    margin-bottom: 10px;
+  }
+  .footer-mid h4 {
+    margin-bottom: 10px;
+  }
+  .footer-links {
+    list-style: none;
+    padding-left: 0;
+  }
+  .footer-links li {
+    margin-bottom: 5px;
+  }
+  .footer-links a {
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  .footer-right label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .subscribe-wrap {
+    display: flex;
+    gap: 5px;
+  }
+  .subscribe-btn {
+    background-color: #96cc39;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-bottom p {
+    margin-right: 20px;
+    font-size: 0.9rem;
+  }
+  .footer-bottom a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 0.9rem;
+  }
+  .social-icons a img {
+    width: 24px;
+    margin-right: 8px;
+  }
+/* ---- Auth Pages Styles ---- */
+.login-page, .signup-page {
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: center;
+  }
+  .social-login, .social-signup {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .fb-login, .google-login,
+  .fb-signup, .google-signup {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .fb-login, .fb-signup {
+    background-color: #3b5998;
+  }
+  .google-login, .google-signup {
+    background-color: #aade55;
+  }
+  .login-form, .signup-form {
+    margin-top: 20px;
+    display: inline-block;
+    text-align: left;
+  }
+  .login-form label, .signup-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .login-form input, .signup-form input {
+    width: 300px;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+/* ---- Hosting Page Styles ---- */
+.hosting-form-section {
+    padding: 40px 80px;
+    text-align: center;
+  }
+  .hosting-form {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+  }
+  .hosting-form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  .hosting-form input {
+    width: 300px;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  .hosting-available-cats {
+    padding: 40px 80px;
+    text-align: center;
+  }
+  .foster-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .foster-card {
+    width: 200px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+/* ---- Rescue Page Styles ---- */
+.rescue-tips-section {
+    padding: 40px 80px;
+    text-align: center;
+  }
+  .tips-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .tip-card {
+    background-color: #f9f9f9;
+    width: 220px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  .emergency-form-section {
+    background-color: #b2ff73;
+    padding: 40px 80px;
+    text-align: center;
+  }
+  .emergency-form {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+  }
+  .helpline-section {
+    padding: 40px 80px;
+    text-align: left;
+  }
+/******************************************************
+ * Login Page Exact Styling
+ * (Place these rules at the bottom of style.css
+ *  so they override any generic login-page styles.)
+ ******************************************************/
+
+/* Login Hero Section: container for header text + green box + cat illustration */
+.login-hero-section {
+    position: relative; /* so we can position the cat illustration */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px;
+  }
+
+  /* Header: icon, H1, subtext */
+  .login-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .login-cat-icon {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 auto 10px auto;
+  }
+  .login-header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif; /* or your chosen font */
+  }
+  .login-subtext {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #555;
+  }
+
+  /* Big green box with social buttons & form */
+  .login-green-box {
+    position: relative;
+    background: linear-gradient(180deg, #b2ff73 0%, #aade55 100%);
+    /* or a single color #aade55 if you prefer */
+    width: 400px;
+    padding: 30px;
+    border-radius: 8px;
+    margin: 0 auto; /* center it */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  /* Social login buttons (Facebook + Google) */
+  .social-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .fb-login, .google-login {
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+  }
+  .fb-login {
+    background-color: #3b5998;
+    color: #fff;
+  }
+  .google-login {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+  }
+
+  /* The actual login form */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .login-form label {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 2px;
+  }
+  .login-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.95rem;
+  }
+  .forgot-password-link {
+    text-align: right;
+    margin-top: -5px;
+    margin-bottom: 10px;
+  }
+  .forgot-password-link a {
+    font-size: 0.85rem;
+    color: #333;
+    text-decoration: underline;
+  }
+
+  /* The main submit button */
+  .login-submit-btn {
+    padding: 12px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  /* "Don’t have an account?" text */
+  .signup-redirect {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 20px;
+  }
+  .signup-redirect a {
+    text-decoration: underline;
+    color: #333;
+  }
+
+  /* Cat illustration on the right side */
+  .login-cat-illustration {
+    position: absolute;
+    right: 40px; /* adjust to position as you wish */
+    bottom: 40px;
+    /* If you want it partially overlapping the green box,
+       set top or bottom values accordingly. */
+  }
+  .login-cat-illustration img {
+    max-width: 180px;
+    height: auto;
+  }
+
+  /******************************************************
+   * Responsive Tweaks
+   ******************************************************/
+  @media (max-width: 768px) {
+    .login-hero-section {
+      padding: 40px 20px;
+    }
+    .login-green-box {
+      width: 100%;
+      max-width: 400px;
+    }
+    .login-cat-illustration {
+      display: none; /* or reposition if you want it visible on mobile */
+    }
+  }
+/******************************************************
+ * Exact Styling for Sign Up Page
+ ******************************************************/
+
+/* Container for the entire sign-up page content */
+.signup-hero-section {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    position: relative; /* if you want to absolutely position images or icons */
+  }
+
+  /* Header (icon + H1 + subtext) */
+  .signup-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .signup-cat-icon {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 auto 10px auto;
+  }
+  .signup-header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif; /* or your custom font */
+  }
+  .signup-subtext {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #555;
+  }
+
+  /* Gray container that holds social sign up + form */
+  .signup-container {
+    background-color: #f5f5f5; /* Light gray from screenshot */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 0 auto; /* center it horizontally */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+
+  /* Social sign-up buttons: Facebook & Google */
+  .social-signup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  .fb-signup, .google-signup {
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+  }
+  .fb-signup {
+    background-color: #3b5998;
+    color: #fff;
+  }
+  .google-signup {
+    background-color: #aade55;
+    /* or #b2ff73 if you want a brighter green,
+       but the screenshot suggests a mid-tone green */
+    color: #fff;
+  }
+
+  /* Actual sign-up form */
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .signup-form label {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 4px;
+  }
+  .signup-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  .terms-text {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.4;
+    margin-top: -4px;
+  }
+
+  /* "Sign Me Up!" button */
+  .signup-submit-btn {
+    margin-top: 10px;
+    padding: 14px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  /* "Already have an account?" text */
+  .login-redirect {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+  .login-redirect a {
+    text-decoration: underline;
+    color: #333;
+  }
+
+  /******************************************************
+   * Responsive Tweaks
+   ******************************************************/
+  @media (max-width: 768px) {
+    .signup-hero-section {
+      padding: 40px 20px;
+    }
+    .signup-container {
+      padding: 20px;
+      max-width: 95%;
+    }
+    .signup-header h1 {
+      font-size: 1.8rem;
+    }
+  }
+/************************************************************
+ * Emergency Rescue Page Exact Styling
+ ************************************************************/
+
+/* Hero Section */
+.rescue-hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 80px;
+    position: relative;
+  }
+  .rescue-hero-text h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  .rescue-hero-text p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+  .rescue-hero-illustration img {
+    max-width: 300px;
+    height: auto;
+  }
+
+  /* Tips Section */
+  .tips-section {
+    text-align: center;
+    margin: 40px 80px;
+  }
+  .tip-bubbles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .tip-bubble {
+    background: #fff;
+    border-radius: 20px;
+    width: 200px;
+    min-height: 120px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: left;
+    position: relative;
+  }
+  .tip-bubble h3 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  .tip-bubble p {
+    margin-top: 40px;
+    line-height: 1.4;
+    color: #555;
+  }
+
+  /* Emergency Form & Helpline Section */
+  .rescue-form-section {
+    display: flex;
+    gap: 20px;
+    margin: 40px 80px;
+  }
+  .emergency-form-box {
+    background: #b2ff73; /* That bright green from your screenshot */
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .emergency-form-box h2 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+  .emergency-form label {
+    display: block;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 3px;
+  }
+  .emergency-form input,
+  .emergency-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .date-time-row {
+    display: flex;
+    gap: 10px;
+  }
+  .emergency-form button {
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .helpline-box {
+    background: #fff;
+    flex: 0.6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  .helpline-box h2 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+  .helpline-box p {
+    margin-bottom: 10px;
+    line-height: 1.4;
+  }
+
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .rescue-hero-section {
+      flex-direction: column;
+      text-align: center;
+    }
+    .rescue-hero-text h1 {
+      margin-bottom: 5px;
+    }
+    .rescue-form-section {
+      flex-direction: column;
+      margin: 20px;
+    }
+  }
+/************************************************************
+ * Hosting Page Exact Styling
+ ************************************************************/
+
+/* Hero Section */
+.hosting-hero-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 60px 80px;
+    position: relative;
+  }
+  .hosting-hero-left {
+    flex: 1;
+    margin-right: 20px;
+  }
+  .hosting-hero-left h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  .hero-cta-btn {
+    padding: 12px 24px;
+    background-color: #aade55;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  .hero-subtext {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .hosting-form-container {
+    background-color: #f5f5f5; /* Light gray container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    max-width: 600px;
+  }
+  .hosting-application-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .input-row {
+    display: flex;
+    gap: 20px;
+  }
+  .input-row label {
+    margin-bottom: 4px;
+  }
+  .hosting-application-form label {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 4px;
+  }
+  .hosting-application-form input,
+  .hosting-application-form textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  .date-range-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .date-range-row span {
+    font-weight: bold;
+  }
+  .cat-image-drop {
+    border: 2px dashed #ccc;
+    border-radius: 6px;
+    padding: 20px;
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+  }
+  .hosting-apply-btn {
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .hosting-hero-right {
+    flex: 0.6;
+  }
+  .hosting-hero-right img {
+    max-width: 350px;
+    height: auto;
+  }
+
+  /* Foster List Section */
+  .foster-list-section {
+    text-align: center;
+    margin: 40px 80px;
+  }
+  .foster-list-section h2 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
+  .cat-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .cat-card {
+    background-color: #fff;
+    width: 220px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: left;
+  }
+  .cat-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .cat-info {
+    padding: 10px;
+  }
+  .cat-info h3 {
+    margin-bottom: 5px;
+  }
+  .badge.female {
+    background: #aade55;
+    color: #fff;
+    padding: 2px 6px;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+  .load-more-btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .hosting-hero-section {
+      flex-direction: column;
+      padding: 40px 20px;
+    }
+    .hosting-hero-right {
+      margin-top: 20px;
+    }
+    .input-row {
+      flex-direction: column;
+    }
+    .hosting-form-container {
+      max-width: 100%;
+    }
+  }
+/*******************************************************
+ * Exact Header Styling for PawPortal
+ *******************************************************/
+ .site-header {
+    background-color: #fff;
+    /* The screenshot shows a white header. */
+    border-bottom: 1px solid #eee; /* subtle bottom border if desired */
+    padding: 0; /* we'll handle padding inside .header-inner */
+  }
+
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px; /* or whatever max container width you want */
+    margin: 0 auto;
+    padding: 20px 40px;
+    /* Adjust padding to match your screenshot’s spacing */
+  }
+
+  /* Left: Logo or brand text */
+  .header-logo .brand-text {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    font-family: Arial, sans-serif; /* or your custom font */
+  }
+
+  /* Middle: Navigation links */
+  .main-nav ul {
+    display: flex;
+    gap: 30px; /* spacing between nav items */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .main-nav ul li a {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+  }
+  .main-nav ul li a:hover {
+    text-decoration: underline; /* or a color change if you prefer */
+  }
+
+  /* Right: Log In & Sign Up */
+  .auth-links {
+    display: flex;
+    gap: 20px;
+  }
+  .login-link, .signup-link {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+
+  /* You can style the signup link with a border or background if desired */
+  .signup-link {
+    background-color: #fff;
+    border: 1px solid #96cc39; /* a green border, matching your site’s palette */
+    color: #96cc39;
+  }
+  .signup-link:hover {
+    background-color: #96cc39;
+    color: #fff;
+  }
+
+  /*******************************************************
+   * Responsive Tweaks
+   *******************************************************/
+  @media (max-width: 768px) {
+    .header-inner {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px 20px;
+    }
+    .main-nav {
+      margin-top: 10px;
+    }
+    .auth-links {
+      margin-top: 10px;
+    }
+  }
